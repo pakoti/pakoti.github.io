@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f6f7f5;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(235, 115, 46);
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(78, 51, 50);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(235, 115, 46);
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Mohammad Ezzatzadeh</h1>
+  <p>Network Enginner</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h1>Work and Related Experience:</h1>
+
+      <h2>Help Desk Support Specialist</h2>
+      <h5>Apr 2023 , Jul 2023</h5>
+      <p>Answering to tickets from end-users,periodic backups,monitoring servers,trouble shooting computer hardware and also ip cameras </p>
+    
+
+      <h2>Call Center Intern</h2>
+      <h5>Apr 2023 , Mar 2023</h5>
+      <p>I learned How to Troubleshoot ADSL,LTE,Fiber optics modems and how to deal with Users problems.</p>
+      <hr>
+      <h1>Education</h1>
+      <h2>QIAU Associate Degree of Electronics</h2>
+      <h5>Apr 2021</h5>
+     
+      <hr>
+      <h1>Awards and Honors</h1>
+      <h2>Top 2% of <a href=https://tryhackme.com > TryHackme</a> Users</h2>
+      <h5>Mar 2021</h5>
+
+      <hr>
+      <h1>Skills</h1>
+      <h2>Soft Skills</h2>
+      <ul>
+        <li>Communication</li>
+        <li>Leadership</li>
+        <li>Problem solving</li>
+      </ul>
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Mikrotik & Cisco Networking</li>
+        <li>Linux & Microsoft Server Administration</li>
+        <li>...</li>
+        <li>...</li>
+        <li>...</li>
+      </ul>
+  
+
+      <hr>
+
+      <h1>Activities/Hobbies</h1>
+      <p>Hiking Mountains,Riding bicycles and also i'm crazy about martial arts.</p>
+
+      <hr>
+
+      <h1>Objective</h1>
+      <p>Try to be a professional network engineer.</p>
+
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div> <img  src="pictures/img.jpg" alt="me" width="190px;" height="190px;" /> </div>
+      <p>Hello,I'm Mohammad.An Engineer who loves to learn new things ...</p>
+    </div>
+    <div class="card">
+      <h3>Languages:</h3>
+      <p>English</p>
+      <p>Persian</p>
+      <p>Azerbaijan Dili</p>
+      <p>Turkish</p>
+    </div>
+    <div class="card">
+      <h3>Contact Information:</h3>
+      <p><a href=https://github.com/pakoti>Github</a></p>
+      <p><a href=https://www.linkedin.com/in/mohammad-ezzatzadeh-38698626b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bs3iwVUq6Q2W6NMJWbcxasw%3D%3D>Linkedin</a></p>
+      <p><a href="mailto:avrpic78@gmail.com">Avrpic78@gmail.com</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <blockquote>
+    <p><q>We become what we behold. We shape our tools, and thereafter our tools shape us.</q></p>
+   </blockquote>
+   <p>Maurice Maeterlinck</p>
+  <p>
+  <a href=https://github.com/pakoti>Github</a>|
+  <a href=https://www.linkedin.com/in/mohammad-ezzatzadeh-38698626b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bs3iwVUq6Q2W6NMJWbcxasw%3D%3D>Linkedin</a>|
+  <a href="mailto:avrpic78@gmail.com">Avrpic78@gmail.com</a>
+  </p>
+
+<p>Created by <a href=https://github.com/pakoti>Pakoti</a>. © 2023</p>
+    
+</div>
+
+</body>
+</html>
+
