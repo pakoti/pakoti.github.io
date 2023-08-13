@@ -10,7 +10,7 @@ A Simple Blog written in html and css to increase the speed of publishing my pos
 
 https://www.gnu.org/licenses/gpl-3.0.en.html
 
-<img src=GPLV3.png>
+<img src=gplv3.png>
 
 
 ## Technologies Used
